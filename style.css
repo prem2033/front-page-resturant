@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    border: 1px solid red;
+    display: flex;
+    background-color:#9a968f;
+}
+#navbar ul{
+    display: flex;
+    font-size: 1rem;
+    /* border: 1px solid red; */
+    padding :25px;
+    margin : 10px;
+    list-style: none;
+}
+#navbar ul li a{
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+
+}
+#logo img{
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+    margin: 8px;;
+}
+a:hover{
+    color:red;
+    cursor: pointer;
+}
+#navsearch{
+    border: 1px solid red;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center; 
+}
+#navsearch button{
+    border: 1px solid red;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 2rem;
+    width: 6rem;
+    height: 2rem;
+}
+#navsearch input{
+    border: 1px solid red;
+    border-radius: 2rem;
+    padding: 4px;
+    margin: 4px;
+    width: 10rem;
+    height: 2rem;
+
+}
+#navsearch button:hover{
+    background: yellow;
+    cursor: pointer;
+}
+#navsearch input:hover{
+    background-color: mediumaquamarine;
+}
