@@ -132,7 +132,7 @@
 }
 
 #services-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #service{
     
@@ -166,3 +166,22 @@
 }
 /* 
 client section */
+#client-section{
+    position: relative;
+    background-color: rgba(196, 209, 207, 0.274);
+    margin: 0px;
+    padding: 0px;
+   
+}
+#clients{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#clients .client-box img{
+    height: 103px;
+    width: 135px;
+    margin: 10px;
+    padding: 11px;
+}
