@@ -114,22 +114,22 @@
     margin: 10px;
 }
 
-/* #services-container{
-     border: 1px solid red; 
-} */
-#service{
-    
+/* service section */
+#service{    
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0px;
     padding: 0px;
 }
 #service  .box{
-    padding: 34px;
-    margin: 2px 31px;
+    padding: 2rem;
+    margin: 2rem 2rem;
     border-radius: 28px;
     background: #f2f2f2;
     margin-bottom: 20px;
-    width: 300px;;
+    width: 19rem;
+    height: auto;
 }
 #service .box img{ 
     height: 215px;
@@ -147,8 +147,8 @@
     text-align: center;
     justify-content: center;
 }
-/* 
-client section */
+
+/*  client section */
 #client-section{
     position: relative;
     background-color: rgba(196, 209, 207, 0.274);
@@ -170,11 +170,10 @@ client section */
 }
 /* contact form */
 #contactUs{
-    border: 1px solid rgb(175, 28, 28); 
+    background-color: rgba(196, 209, 207, 0.274);
 }
 
 #contac-form form{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -186,10 +185,10 @@ client section */
     font-weight: bold;
 }
 #contac-form form .inputtag{
-    width: 270px;
-    height: 30px;
-    margin: 5px;
-    padding: 5px;
+    width: 20rem;
+    height: 2rem;
+    margin: 0.3rem;
+    padding: 0.4rem;;
     border-radius: 14px;
     font-size: 1.2rem;
 }
@@ -204,11 +203,13 @@ input[type='submit']:hover{
 }
 /* code to put things in center */
 #footer{
-    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding: .5rem;
+    background-color: black;
+    color: white;
 }
+
 
 
