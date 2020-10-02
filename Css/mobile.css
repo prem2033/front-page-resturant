@@ -2,20 +2,22 @@
 #navbar{
     flex-direction: column;
 }
+
 #navbar #logo img{
-    padding:1rem;
-    margin: 1rem;
+    padding: 0rem;
+    margin: .5rem;
 }
 #navbar ul{
     padding:1rem;
-    margin: 1rem;
+    margin: 0rem;
 }
 #navbar ul li a{
     font-size: 1rem;
+    
 }
 /* home section */
 #home{
-    height: 436px;
+    height: 518px;
 }
 #home .primary{
     font-size: 2rem;
