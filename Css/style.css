@@ -1,12 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
+
+}
+body{
+    background-color: rgba(196, 209, 207, 0.274);
 }
 #navbar{
     display: flex;
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 5;
 }
 #navbar::before{
     content: "";
@@ -48,13 +53,6 @@
     border-radius: 9px;
     cursor: pointer;    
 }
-
-/* a:hover{
-    color: rgb(231, 25, 25);
-    cursor: pointer;
-    opacity: 1;
-
-} */
 
 #navsearch{
     /* border: 1px solid red; */
@@ -121,6 +119,7 @@
     align-items: center;
     margin: 0px;
     padding: 0px;
+    z-index: -2;
 }
 #service  .box{
     padding: 2rem;
@@ -192,7 +191,15 @@
     border-radius: 14px;
     font-size: 1.2rem;
 }
-.form-item{
+.form-item input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+}
+.form-item label{
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -210,6 +217,3 @@ input[type='submit']:hover{
     background-color: black;
     color: white;
 }
-
-
-
