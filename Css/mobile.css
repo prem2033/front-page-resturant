@@ -1,4 +1,7 @@
 /* nav Section */
+html {
+    scroll-behavior: smooth;
+  }
 #navbar{
     flex-direction: column;
 }
